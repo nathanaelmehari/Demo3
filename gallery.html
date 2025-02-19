@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Noble Engineering</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+
+        @layer utilities {
+            @keyframes fadeIn {
+                from {
+                    opacity: 0;
+                    transform: translateY(20px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+            .animate-fadeIn {
+                animation: fadeIn 1s ease-out 0.2s forwards;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    
+    <nav class="bg-white fixed shadow-md w-full z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex items-center">
+                    <a href="index.html" class="text-2xl font-bold text-gray-800">Noble Engineering</a>
+                </div> 
+            </div>
+        </div>
+    </nav>
+    
+    <div class="pt-20 pb-10">
+        <div id="about" class=" w-[100vw] bg-white shadow-lg rounded-lg p-10 md:p-16 flex flex-col md:flex-row">
+            <!-- Left Side (Heading) -->
+            <div class="md:w-1/2">
+                <h3 class="text-sm uppercase text-gray-500 font-semibold">Gallary</h3>
+                <h1 class="text-5xl md:text-6xl font-extrabold text-gray-900 mt-2 leading-tight">
+                    Welcome <br> to our <br> Gallary
+                </h1>
+                <div class="w-12 h-1 bg-orange-500 mt-4"></div>
+            </div>
+    
+          
+        </div>
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <div class="bg-white p-2 rounded-lg shadow-md animate-fadeIn">
+                <img src="./image/noble.jpg" alt="Gallery Image" class="w-full h-60 object-cover rounded-lg">
+            </div>
+            <div class="bg-white p-2 rounded-lg shadow-md animate-fadeIn">
+                <img src="./image/gallary1.jpg" alt="Gallery Image" class="w-full h-60 object-cover rounded-md">
+            </div>
+            <div class="bg-white p-2 rounded-lg shadow-md animate-fadeIn">
+                <img src="./image/gallary2.jpg" alt="Gallery Image" class="w-full h-60 object-cover rounded-md">
+            </div>
+            <div class="bg-white p-2 rounded-lg shadow-md animate-fadeIn">
+                <img src="./image/gallary3.jpg" alt="Gallery Image" class="w-full h-60 object-cover rounded-md">
+            </div>
+            <div class="bg-white p-2 rounded-lg shadow-md animate-fadeIn">
+                <img src="./image/gallary4.jpg" alt="Gallery Image" class="w-full h-60 object-cover rounded-md">
+            </div>
+            <div class="bg-white p-2 rounded-lg shadow-md animate-fadeIn">
+                <img src="./image/door.jpg" alt="Gallery Image" class="w-full h-60 object-cover rounded-md">
+            </div>
+            <div class="bg-white p-2 rounded-lg shadow-md animate-fadeIn">
+                <img src="./image/sofa1.jpg" alt="Gallery Image" class="w-full h-60 object-cover rounded-md">
+            </div>
+            <div class="bg-white p-2 rounded-lg shadow-md animate-fadeIn">
+                <img src="./image/door2.jpg" alt="Gallery Image" class="w-full h-60 object-cover rounded-md">
+            </div>
+            <div class="bg-white p-2 rounded-lg shadow-md animate-fadeIn">
+                <img src="./image/door3.jpg" alt="Gallery Image" class="w-full h-60 object-cover rounded-md">
+            </div>
+            <div class="bg-white p-2 rounded-lg shadow-md animate-fadeIn">
+                <img src="./image/sofa2.jpg" alt="Gallery Image" class="w-full h-60 object-cover rounded-md">
+            </div>
+            <div class="bg-white p-2 rounded-lg shadow-md animate-fadeIn">
+                <img src="./image/sofa5.jpg" alt="Gallery Image" class="w-full h-60 object-cover rounded-md">
+            </div>
+            <div class="bg-white p-2 rounded-lg shadow-md animate-fadeIn">
+                <img src="./image/kitchen2.jpg" alt="Gallery Image" class="w-full h-60 object-cover rounded-md">
+            </div>
+            <div class="bg-white p-2 rounded-lg shadow-md animate-fadeIn">
+                <img src="./kitchen.jpg" alt="Gallery Image" class="w-full h-60 object-cover rounded-md">
+            </div>
+            <div class="bg-white p-2 rounded-lg shadow-md animate-fadeIn">
+                <img src="./metal chair.jpg" alt="Gallery Image" class="w-full h-60 object-cover rounded-md">
+            </div>
+            <div class="bg-white p-2 rounded-lg shadow-md animate-fadeIn">
+                <img src="./image/wardrobe.jpg" alt="Gallery Image" class="w-full h-60 object-cover rounded-md">
+            </div>
+            <div class="bg-white p-2 rounded-lg shadow-md animate-fadeIn">
+                <img src="./image/kitchen4.jpg" alt="Gallery Image" class="w-full h-60 object-cover rounded-md">
+            </div>
+            <div class="bg-white p-2 rounded-lg shadow-md animate-fadeIn">
+                <img src="./image/sofa5.jpg" alt="Gallery Image" class="w-full h-60 object-cover rounded-md">
+            </div>
+            <div class="bg-white p-2 rounded-lg shadow-md animate-fadeIn">
+                <img src="./image/fancy.jpg" alt="Gallery Image" class="w-full h-60 object-cover rounded-md">
+            </div>
+            <div class="bg-white p-2 rounded-lg shadow-md animate-fadeIn">
+                <img src="./image/office1.jpg" alt="Gallery Image" class="w-full h-60 object-cover rounded-md">
+            </div>
+            <div class="bg-white p-2 rounded-lg shadow-md animate-fadeIn">
+                <img src="./image/office2.jpg" alt="Gallery Image" class="w-full h-60 object-cover rounded-md">
+            </div>
+            <div class="bg-white p-2 rounded-lg shadow-md animate-fadeIn">
+                <img src="./image/office3.jpg" alt="Gallery Image" class="w-full h-60 object-cover rounded-md">
+            </div>
+
+            <!-- Add more images as needed -->
+        </div>
+    </div>
+    
+</body>
+</html>
